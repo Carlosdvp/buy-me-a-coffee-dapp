@@ -17,7 +17,7 @@ contract BuyMeACoffee {
     uint256 timestamp;
     string name;
     string message;
-  };
+  }
 
   // address of the contract deployer
   // Marked payable so that we can withdraw to this address later.
@@ -46,7 +46,7 @@ contract BuyMeACoffee {
     // must be more than 0 ETH
     require(msg.value > 0, "can't buy a coffee for free!");
 
-    memo.push(Memo(
+    memos.push(Memo(
       msg.sender,
       block.timestamp,
       _name,
