@@ -32,3 +32,34 @@ npx hardhat run scripts/deploy.js
 
 ---------------------------------------
 
+## Deployed Contract Address -- Goerli
+
+0x8F7ac69FCD989485366B805883B99A759cd4e255
+
+### Goerli Etherscan
+https://goerli.etherscan.io/
+
+
+---------------------------------------
+
+1. Initialize the hardhat project 
+2. Write the smart contract
+3. Write the tests
+
+---------------------------------------
+
+`testerScript.js`
+The `main()` function holds the main logic:
+
+1. Get the example accounts' addresses
+2. Get the contract to deploy
+3. Deploy the contract
+4. Check account balance before they buy you a coffee
+5. Buy the owner a few coffees
+6. Check the account balances after they buy you some coffees
+7. Withdraw the tips
+8. Check the accounts' balances after the tips are withdrawn
+9. Read the messages (memos)
+
+-------------------------------------------
+
