@@ -36,6 +36,9 @@ npx hardhat run scripts/deploy.js
 
 0x8F7ac69FCD989485366B805883B99A759cd4e255
 
+### Goerli Etherscan
+https://goerli.etherscan.io/
+
 
 ---------------------------------------
 
